@@ -262,10 +262,7 @@
     </div>
 
 <nav class="navbar navbar-dark bg-primary">
-  <!-- Navbar content here -->
-</nav>
-
-<div class="col footer__col">
+	<div class="col footer__col">
   <div class="footer__title">Deployed Using</div>
   <ul class="footer__items clean-list">
     <li class="footer__item">
@@ -275,6 +272,9 @@
     </li>
   </ul>
 </div>
+</nav>
+
+
 
 
 
