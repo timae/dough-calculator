@@ -5,7 +5,6 @@
         //Add analytics code here
         include_once "gtag.txt";
     ?>
-    <meta name="author" content="Ramin Hossaini">
 	<meta name="description" content="A Pizza-dough calculator">
 	<meta name="viewport" content="width=device-width">
 
@@ -26,7 +25,7 @@
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script>dayjs().format()</script>
 
-    <title>Ramin's Pizza-dough Calculator</title>
+    <title>Pizza-dough Calculator</title>
 </head>
 
 <body>
@@ -36,7 +35,7 @@
 
     <nav class="navbar bg-primary mb-3" data-bs-theme="dark">
         <div class="container-fluid">
-                <a class="navbar-brand" href="/dough-calculator/">Ramin's Pizza-dough Calculator</a>
+                <a class="navbar-brand" href="/dough-calculator/">Pizza-dough Calculator</a>
                 <span class="navbar-text"><a class="nav-link active" href="https://github.com/raminhossaini/ramin-dough-calculator/commits/main">Version 1.0.230902</a></span>
             </span>
         </div>
