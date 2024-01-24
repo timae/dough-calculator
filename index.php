@@ -262,10 +262,10 @@
     </div>
 
 <nav class="navbar navbar-dark bg-primary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="https://www.ramin-hossaini.com/2022/06/poolish-pizza-dough-calculator/">Made in good faith by Ramin Hossaini</a>
-        <span class="navbar-text"><a href="https://www.ramin-hossaini.com/contact/">Contact</a></span>
-
+    </li></ul></div><div class="col footer__col"><div class="footer__title">Deployed Using</div><ul class="footer__items clean-list"><li class="footer__item">
+                <a href="https://deplo.io/" rel="noopener noreferrer">
+                  <img src="/img/theme/deploio.svg" alt="Deplo.io Logo" width="110" height="100">
+                </a>
     </div>
 </nav>
 
