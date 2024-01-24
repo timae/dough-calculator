@@ -262,12 +262,20 @@
     </div>
 
 <nav class="navbar navbar-dark bg-primary">
-    </li></ul></div><div class="col footer__col"><div class="footer__title">Deployed Using</div><ul class="footer__items clean-list"><li class="footer__item">
-                <a href="https://deplo.io/" rel="noopener noreferrer">
-                  <img src="/img/theme/deploio.svg" alt="Deplo.io Logo" width="110" height="100">
-                </a>
-    </div>
+  <!-- Navbar content here -->
 </nav>
+
+<div class="col footer__col">
+  <div class="footer__title">Deployed Using</div>
+  <ul class="footer__items clean-list">
+    <li class="footer__item">
+      <a href="https://deplo.io/" rel="noopener noreferrer">
+        <img src="https://docs.nine.ch/img/theme/deploio.svg" alt="Deplo.io Logo" width="110" height="100">
+      </a>
+    </li>
+  </ul>
+</div>
+
 
 
 </div> <!-- container -->
