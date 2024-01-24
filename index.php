@@ -261,18 +261,34 @@
         </div>
     </div>
 
+<style>
+  .footer__col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Set a fixed height for the footer */
+    background-color: #333; /* Add a background color for visibility */
+  }
+
+  .footer__item {
+    text-align: center;
+  }
+</style>
+
 <nav class="navbar navbar-dark bg-primary">
-	<div class="col footer__col">
-  <div class="footer__title">Deployed Using</div>
-  <ul class="footer__items clean-list">
+  <!-- Navbar content here -->
+</nav>
+
+<div class="col footer__col">
+  <div class="footer__items clean-list">
     <li class="footer__item">
       <a href="https://deplo.io/" rel="noopener noreferrer">
-        <img src="https://docs.nine.ch/img/theme/deploio.svg" alt="Deplo.io Logo" width="110" height="100">
+        <img src="https://docs.nine.ch/img/theme/deploio.svg" alt="Deplo.io Logo" width="110" height="100" style="border: 1px solid red;">
       </a>
     </li>
-  </ul>
+  </div>
 </div>
-</nav>
+
 
 
 
