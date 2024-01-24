@@ -282,13 +282,13 @@
 <div class="col footer__col">
   <div class="footer__items clean-list">
     <li class="footer__item">
+      Hosted with <span style="color: red;">&hearts;</span>
       <a href="https://deplo.io/" rel="noopener noreferrer">
         <img src="https://docs.nine.ch/img/theme/deploio.svg" alt="Deplo.io Logo" width="110" height="100" style="border: 1px solid red;">
       </a>
     </li>
   </div>
 </div>
-
 
 
 
