@@ -36,10 +36,37 @@
     <nav class="navbar bg-primary mb-3" data-bs-theme="dark">
         <div class="container-fluid">
                 <a class="navbar-brand" href="/dough-calculator/">Pizza-dough Calculator</a>
-                <span class="navbar-text"><a class="nav-link active" href="https://github.com/raminhossaini/ramin-dough-calculator/commits/main">Version 1.0.230902</a></span>
+                <span class="navbar-text"><a class="nav-link active" href="https://github.com/timae/dough-calculator/commits/main">Version 1.0.230902</a></span>
             </span>
         </div>
     </nav>
+<div class="container">
+    <!-- Your existing content -->
+
+    <!-- Section for explaining flour and requirements -->
+    <div class="row">
+        <div class="col">
+            <h2>Choosing the Right Flour for Pizza Dough</h2>
+            <p>When making pizza dough, the choice of flour is crucial to achieving the desired texture and flavor. 
+               Ideally, use high-protein bread flour for a chewy and crispy crust - Your aim should always be to have more then 12g protein in your flour.
+		The flour i use most of the time is <a href="https://www.ottos.ch/de/supermarkt-weine/lebensmittel/vorraete/caputo-pizzamehl-pizzeria-typ-00-1-kg/p/324682" target="_blank">Caputo Pizzamehl</a>
+		However, you can also experiment with other types of flour, such as Tipo 00, which is known for its fine texture and is commonly used 
+               in traditional Neapolitan pizza.</p>
+            
+            <h2>Other Recommended Requirements:</h2>
+            <ul>
+                <li>Fresh yeast or instant yeast for leavening.</li>
+                <li>Quality water at an appropriate temperature.</li>
+                <li>Consider the hydration percentage for the desired dough consistency (See Calculator).</li>
+		<li>Consider the hydration percentage for the desired dough consistency.</li>
+                <!-- Add more recommendations as needed -->
+            </ul>
+        </div>
+    </div>
+    
+    <!-- The rest of your existing content -->
+
+</div> <!-- container -->
 
 <!--    <span>
         <span class="form-check form-switch">
