@@ -58,11 +58,52 @@
                 <li>Fresh yeast or instant yeast for leavening.</li>
                 <li>Quality water at an appropriate temperature.</li>
                 <li>Consider the hydration percentage for the desired dough consistency (See Calculator).</li>
-		<li>Consider the hydration percentage for the desired dough consistency.</li>
+		<li>In case you only have fresh or dried yeast at hand i added you can calculate the equivalent here:.</li>
                 <!-- Add more recommendations as needed -->
             </ul>
         </div>
     </div>
+<!-- Section for Yeast Calculator -->
+    <div class="row" id="yeast-calculator">
+        <div class="col">
+            <h2>Yeast Calculator</h2>
+            <p>Calculating the right amount of yeast is crucial for a successful pizza dough. Here's a simple yeast calculator:</p>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Fresh Yeast (g)</span>
+                <input type="text" id="inputFreshYeast" class="form-control" aria-label="">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Dried Yeast (g)</span>
+                <input type="text" id="inputDriedYeast" class="form-control" aria-label="">
+            </div>
+
+            <button class="btn btn-primary" onclick="calculateYeast()">Calculate</button>
+
+            <p>The recommended conversion ratio is 1:2 (fresh yeast to dried yeast).</p>
+
+            <h3>Recommended Yeast Amount:</h3>
+            <p id="recommendedYeastAmount"></p>
+        </div>
+    </div>
+    
+    <!-- The rest of your existing content -->
+
+</div> <!-- container -->
+
+<script>
+    function calculateYeast() {
+        var freshYeast = parseFloat($("#inputFreshYeast").val()) || 0;
+        var driedYeast = freshYeast / 2; // Conversion ratio: 1:2
+
+        $("#inputDriedYeast").val(driedYeast.toFixed(2));
+
+        // You can customize this part based on your calculation needs
+        var recommendedAmount = "Use " + driedYeast.toFixed(2) + "g of dried yeast for this recipe.";
+        $("#recommendedYeastAmount").text(recommendedAmount);
+    }
+</script>
     
     <!-- The rest of your existing content -->
 
